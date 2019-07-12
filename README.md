@@ -1,0 +1,1 @@
+Sample project for Firebase ML Face Detection with CameraX for camera image preview and taking picture

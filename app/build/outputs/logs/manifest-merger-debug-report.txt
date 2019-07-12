@@ -1,0 +1,531 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:2:1-31:12
+MERGED from [com.google.android.material:material:1.1.0-alpha07] /Users/supto/.gradle/caches/transforms-2/files-2.1/33b693e53936b909cfc288403a261f55/material-1.1.0-alpha07/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha05] /Users/supto/.gradle/caches/transforms-2/files-2.1/5c04edc8c054da4ab60781f771bf313c/appcompat-1.1.0-alpha05/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/supto/.gradle/caches/transforms-2/files-2.1/0dafacd45db72572e9e6c0f9d2d24828/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/91230b543dca03cfd65e0b13c5d6ecbd/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.1.0-alpha06] /Users/supto/.gradle/caches/transforms-2/files-2.1/1f11d391031d5590d9a061003b658ffc/navigation-fragment-2.1.0-alpha06/AndroidManifest.xml:17:1-24:12
+MERGED from [com.jakewharton:butterknife:10.1.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/fea0cd983d5f3fb99e84f88dd527d0aa/butterknife-10.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/supto/.gradle/caches/transforms-2/files-2.1/ecfb85abf89b28cf92faf22ce3b46661/rxandroid-2.1.1/AndroidManifest.xml:15:1-20:12
+MERGED from [com.github.tbruyelle:rxpermissions:0.10.2] /Users/supto/.gradle/caches/transforms-2/files-2.1/6ed109f660e3bc339dd7cb08d84b0e8c/jetified-rxpermissions-0.10.2/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.camera:camera-camera2:1.0.0-alpha03] /Users/supto/.gradle/caches/transforms-2/files-2.1/32f5ab79e79719acb18d997cb5ca43f7/camera-camera2-1.0.0-alpha03/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.camera:camera-core:1.0.0-alpha03] /Users/supto/.gradle/caches/transforms-2/files-2.1/89475d1b0c57e9c84c045645f24f6c30/camera-core-1.0.0-alpha03/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-core:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/060744f6a2f2227b7f6ae66ec664f3d5/firebase-core-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-ml-vision:21.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/06b9e9cf76eb0fdfc3ba14e8a9dc824b/firebase-ml-vision-21.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/f2f14ccb47685e183c7b2d60f3e338cb/firebase-ml-vision-face-model-18.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/1de4af986af0d0f081e8cf2852b54cd9/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/a77502ce2f5b35b3a8889860dd3b25d9/firebase-analytics-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.firebase:firebase-ml-common:20.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/9e3c81e830e4798a438c78fa2876893f/firebase-ml-common-20.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/1b920dbcb654aa18d4d2f2e6d710015d/play-services-measurement-api-17.0.0/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/a27b7316852127cedb107fa342027e86/play-services-measurement-sdk-17.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/c4f8446deafbbd935d10a9eb10f346da/play-services-measurement-impl-17.0.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/87d5ea9ed2b456ab2692701ef4cee467/play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/a81b30af295ba6d7c89f22476fe84f8f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/3c889179c533ac80e0db01982a81a1a5/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/4182bfc2f56e99726ba059063b32f79a/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] /Users/supto/.gradle/caches/transforms-2/files-2.1/01536d8e0cef9df088d6e431cdc9601a/coordinatorlayout-1.1.0-alpha01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.1] /Users/supto/.gradle/caches/transforms-2/files-2.1/5575426a2f660ff276f1105b3e12323c/transition-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha05] /Users/supto/.gradle/caches/transforms-2/files-2.1/93f74d569dc0364b2e7088ebfe70367d/appcompat-resources-1.1.0-alpha05/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-beta01] /Users/supto/.gradle/caches/transforms-2/files-2.1/bdd8892c928a2aab3488aed1db307ac4/vectordrawable-animated-1.1.0-beta01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-beta01] /Users/supto/.gradle/caches/transforms-2/files-2.1/9bf749e308f040c15232e0485f01b297/vectordrawable-1.1.0-beta01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-alpha04] /Users/supto/.gradle/caches/transforms-2/files-2.1/0c2a7bfba3dde6da4209049c6190e1b8/viewpager2-1.0.0-alpha04/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/9669fbca71754ec41311aee715c7e2ab/play-services-auth-base-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-vision:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/b7673a4f62c8598046bf235dcdc6faeb/play-services-vision-18.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-image-label:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/5c8c47bd659d9c8ea8c2d7b8ef21d1df/play-services-vision-image-label-18.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/0b4a72cd60e9f0e6c95dbf3772012224/play-services-vision-common-18.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/2783517788005408654cf894e0a58339/play-services-clearcut-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/d148d6b3a7b4a11d5c9abfa488a94585/play-services-flags-17.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/72cde89ab9583a6f0b76685ea084f187/play-services-phenotype-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/c8c6c41a890bdbc93b697f1aa690f896/firebase-iid-interop-17.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/5d14a30af3c8bd5bbd18ffaa627a61cb/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/f5f88768d0479412135c50da1a8f61d7/firebase-common-18.0.0/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/716eabca0bbd24c67f73008d1f458b9e/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/4fe8dd6666bef74ff5ade91ca3ca7f25/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/cfbb977098b019130f7375403bd89136/play-services-measurement-base-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/546364b3c4678e1aa56dd340f8c12f16/firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/888975ad5e1a36ecc926c86675425fcd/play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/e19579a72270455b9385fa99699f0732/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0-rc01] /Users/supto/.gradle/caches/transforms-2/files-2.1/77fcd333a62ef90fe7c6d1de346f261a/fragment-1.1.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [com.jakewharton:butterknife-runtime:10.1.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/399789c6a9220fee964ea103d39c5a6c/butterknife-runtime-10.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/b605ba4aba3978df580fce1f01ff1ad4/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/52c75dfc912fad01c418d8891b71ff07/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/648387ae8a56dc9685cdc1469e4c796f/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/b5da2f27843259d481a261de9d348828/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha05] /Users/supto/.gradle/caches/transforms-2/files-2.1/56ded9a57e0d0b418e978cee22239959/recyclerview-1.1.0-alpha05/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/dade71191df33e0ff4ecba70582b1163/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/49fe61372939fd65d675e12f15c15aeb/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/246df8271d47953a8e80111d8d226363/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.1.0-alpha06] /Users/supto/.gradle/caches/transforms-2/files-2.1/e057388dbef6f5dffeaac3e3980fa593/navigation-runtime-2.1.0-alpha06/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0-rc01] /Users/supto/.gradle/caches/transforms-2/files-2.1/cc8a8c8da6370606f49abdcb5bd8a977/activity-1.0.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.1.0-alpha06] /Users/supto/.gradle/caches/transforms-2/files-2.1/105a30e611560d39842318e688e3281a/navigation-common-2.1.0-alpha06/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/supto/.gradle/caches/transforms-2/files-2.1/63e599754f235a162ab7618185327ae9/core-1.1.0-rc01/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/8b4526752e42f4a913b64324ba339d7d/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/178d4b84ae19687476a7e5a8e8fac88a/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/73a499153d39b964886d4dfb6e0990e9/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/b9ae9cfa37c06ac7d6b2916e1b19cdfc/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/44452f9db9b495c617f85b6ebbc06252/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/464b044a9604dfe5b308ceaeb6d4f72f/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/supto/.gradle/caches/transforms-2/files-2.1/050776c33ba940afb89f305541a789b9/versionedparcelable-1.1.0-rc01/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] /Users/supto/.gradle/caches/transforms-2/files-2.1/31d022c06705e4a0c84deb1983025e21/lifecycle-viewmodel-2.1.0-rc01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] /Users/supto/.gradle/caches/transforms-2/files-2.1/d606b722148d2d74438048c23a257f36/lifecycle-runtime-2.1.0-rc01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] /Users/supto/.gradle/caches/transforms-2/files-2.1/618c05ddaefec8c368e8d364e3d139e4/savedstate-1.0.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/7dbeefde088a826a6bd310535f13954c/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/b60f5571b119be9b8df03355afd6aad0/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/581b654384cf85b9eb2c16760c30070d/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:2:1-31:12
+	package
+		ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:3:5-40
+		INJECTED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml
+		ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:2:1-31:12
+		INJECTED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml
+		ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:2:1-31:12
+		INJECTED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:5:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:6:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:7:22-78
+application
+ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:9:5-29:19
+MERGED from [com.google.android.material:material:1.1.0-alpha07] /Users/supto/.gradle/caches/transforms-2/files-2.1/33b693e53936b909cfc288403a261f55/material-1.1.0-alpha07/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha07] /Users/supto/.gradle/caches/transforms-2/files-2.1/33b693e53936b909cfc288403a261f55/material-1.1.0-alpha07/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/supto/.gradle/caches/transforms-2/files-2.1/0dafacd45db72572e9e6c0f9d2d24828/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/supto/.gradle/caches/transforms-2/files-2.1/0dafacd45db72572e9e6c0f9d2d24828/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.github.tbruyelle:rxpermissions:0.10.2] /Users/supto/.gradle/caches/transforms-2/files-2.1/6ed109f660e3bc339dd7cb08d84b0e8c/jetified-rxpermissions-0.10.2/AndroidManifest.xml:9:5-20
+MERGED from [com.github.tbruyelle:rxpermissions:0.10.2] /Users/supto/.gradle/caches/transforms-2/files-2.1/6ed109f660e3bc339dd7cb08d84b0e8c/jetified-rxpermissions-0.10.2/AndroidManifest.xml:9:5-20
+MERGED from [androidx.camera:camera-camera2:1.0.0-alpha03] /Users/supto/.gradle/caches/transforms-2/files-2.1/32f5ab79e79719acb18d997cb5ca43f7/camera-camera2-1.0.0-alpha03/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.camera:camera-camera2:1.0.0-alpha03] /Users/supto/.gradle/caches/transforms-2/files-2.1/32f5ab79e79719acb18d997cb5ca43f7/camera-camera2-1.0.0-alpha03/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.firebase:firebase-core:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/060744f6a2f2227b7f6ae66ec664f3d5/firebase-core-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/060744f6a2f2227b7f6ae66ec664f3d5/firebase-core-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/f2f14ccb47685e183c7b2d60f3e338cb/firebase-ml-vision-face-model-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/f2f14ccb47685e183c7b2d60f3e338cb/firebase-ml-vision-face-model-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/a77502ce2f5b35b3a8889860dd3b25d9/firebase-analytics-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/a77502ce2f5b35b3a8889860dd3b25d9/firebase-analytics-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/1b920dbcb654aa18d4d2f2e6d710015d/play-services-measurement-api-17.0.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/1b920dbcb654aa18d4d2f2e6d710015d/play-services-measurement-api-17.0.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/a27b7316852127cedb107fa342027e86/play-services-measurement-sdk-17.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/a27b7316852127cedb107fa342027e86/play-services-measurement-sdk-17.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/c4f8446deafbbd935d10a9eb10f346da/play-services-measurement-impl-17.0.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/c4f8446deafbbd935d10a9eb10f346da/play-services-measurement-impl-17.0.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/87d5ea9ed2b456ab2692701ef4cee467/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/87d5ea9ed2b456ab2692701ef4cee467/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/b7673a4f62c8598046bf235dcdc6faeb/play-services-vision-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/b7673a4f62c8598046bf235dcdc6faeb/play-services-vision-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-image-label:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/5c8c47bd659d9c8ea8c2d7b8ef21d1df/play-services-vision-image-label-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-image-label:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/5c8c47bd659d9c8ea8c2d7b8ef21d1df/play-services-vision-image-label-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/0b4a72cd60e9f0e6c95dbf3772012224/play-services-vision-common-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/0b4a72cd60e9f0e6c95dbf3772012224/play-services-vision-common-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/2783517788005408654cf894e0a58339/play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/2783517788005408654cf894e0a58339/play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/72cde89ab9583a6f0b76685ea084f187/play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/72cde89ab9583a6f0b76685ea084f187/play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/c8c6c41a890bdbc93b697f1aa690f896/firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/c8c6c41a890bdbc93b697f1aa690f896/firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/5d14a30af3c8bd5bbd18ffaa627a61cb/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/5d14a30af3c8bd5bbd18ffaa627a61cb/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/f5f88768d0479412135c50da1a8f61d7/firebase-common-18.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/f5f88768d0479412135c50da1a8f61d7/firebase-common-18.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/716eabca0bbd24c67f73008d1f458b9e/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/716eabca0bbd24c67f73008d1f458b9e/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/4fe8dd6666bef74ff5ade91ca3ca7f25/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/4fe8dd6666bef74ff5ade91ca3ca7f25/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/cfbb977098b019130f7375403bd89136/play-services-measurement-base-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/cfbb977098b019130f7375403bd89136/play-services-measurement-base-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/546364b3c4678e1aa56dd340f8c12f16/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/546364b3c4678e1aa56dd340f8c12f16/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/888975ad5e1a36ecc926c86675425fcd/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/888975ad5e1a36ecc926c86675425fcd/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/e19579a72270455b9385fa99699f0732/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/e19579a72270455b9385fa99699f0732/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/supto/.gradle/caches/transforms-2/files-2.1/63e599754f235a162ab7618185327ae9/core-1.1.0-rc01/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/supto/.gradle/caches/transforms-2/files-2.1/63e599754f235a162ab7618185327ae9/core-1.1.0-rc01/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/supto/.gradle/caches/transforms-2/files-2.1/050776c33ba940afb89f305541a789b9/versionedparcelable-1.1.0-rc01/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/supto/.gradle/caches/transforms-2/files-2.1/050776c33ba940afb89f305541a789b9/versionedparcelable-1.1.0-rc01/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0-rc01] /Users/supto/.gradle/caches/transforms-2/files-2.1/63e599754f235a162ab7618185327ae9/core-1.1.0-rc01/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:13:9-41
+	android:roundIcon
+		ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:14:9-54
+	android:icon
+		ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:16:9-40
+	android:name
+		ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:11:9-38
+activity#com.example.facedetection.MainActivity
+ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:17:9-23:20
+	android:name
+		ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:17:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:21:27-74
+meta-data#com.google.firebase.ml.vision.DEPENDENCIES
+ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:25:9-27:36
+	android:value
+		ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:27:13-33
+	android:name
+		ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:26:13-70
+uses-sdk
+INJECTED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml
+INJECTED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.1.0-alpha07] /Users/supto/.gradle/caches/transforms-2/files-2.1/33b693e53936b909cfc288403a261f55/material-1.1.0-alpha07/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha07] /Users/supto/.gradle/caches/transforms-2/files-2.1/33b693e53936b909cfc288403a261f55/material-1.1.0-alpha07/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha05] /Users/supto/.gradle/caches/transforms-2/files-2.1/5c04edc8c054da4ab60781f771bf313c/appcompat-1.1.0-alpha05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha05] /Users/supto/.gradle/caches/transforms-2/files-2.1/5c04edc8c054da4ab60781f771bf313c/appcompat-1.1.0-alpha05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/supto/.gradle/caches/transforms-2/files-2.1/0dafacd45db72572e9e6c0f9d2d24828/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/supto/.gradle/caches/transforms-2/files-2.1/0dafacd45db72572e9e6c0f9d2d24828/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/91230b543dca03cfd65e0b13c5d6ecbd/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/91230b543dca03cfd65e0b13c5d6ecbd/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.1.0-alpha06] /Users/supto/.gradle/caches/transforms-2/files-2.1/1f11d391031d5590d9a061003b658ffc/navigation-fragment-2.1.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.1.0-alpha06] /Users/supto/.gradle/caches/transforms-2/files-2.1/1f11d391031d5590d9a061003b658ffc/navigation-fragment-2.1.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton:butterknife:10.1.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/fea0cd983d5f3fb99e84f88dd527d0aa/butterknife-10.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:10.1.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/fea0cd983d5f3fb99e84f88dd527d0aa/butterknife-10.1.0/AndroidManifest.xml:5:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/supto/.gradle/caches/transforms-2/files-2.1/ecfb85abf89b28cf92faf22ce3b46661/rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/supto/.gradle/caches/transforms-2/files-2.1/ecfb85abf89b28cf92faf22ce3b46661/rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [com.github.tbruyelle:rxpermissions:0.10.2] /Users/supto/.gradle/caches/transforms-2/files-2.1/6ed109f660e3bc339dd7cb08d84b0e8c/jetified-rxpermissions-0.10.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.tbruyelle:rxpermissions:0.10.2] /Users/supto/.gradle/caches/transforms-2/files-2.1/6ed109f660e3bc339dd7cb08d84b0e8c/jetified-rxpermissions-0.10.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.camera:camera-camera2:1.0.0-alpha03] /Users/supto/.gradle/caches/transforms-2/files-2.1/32f5ab79e79719acb18d997cb5ca43f7/camera-camera2-1.0.0-alpha03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-camera2:1.0.0-alpha03] /Users/supto/.gradle/caches/transforms-2/files-2.1/32f5ab79e79719acb18d997cb5ca43f7/camera-camera2-1.0.0-alpha03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.0.0-alpha03] /Users/supto/.gradle/caches/transforms-2/files-2.1/89475d1b0c57e9c84c045645f24f6c30/camera-core-1.0.0-alpha03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.0.0-alpha03] /Users/supto/.gradle/caches/transforms-2/files-2.1/89475d1b0c57e9c84c045645f24f6c30/camera-core-1.0.0-alpha03/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-core:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/060744f6a2f2227b7f6ae66ec664f3d5/firebase-core-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/060744f6a2f2227b7f6ae66ec664f3d5/firebase-core-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-vision:21.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/06b9e9cf76eb0fdfc3ba14e8a9dc824b/firebase-ml-vision-21.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-vision:21.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/06b9e9cf76eb0fdfc3ba14e8a9dc824b/firebase-ml-vision-21.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/f2f14ccb47685e183c7b2d60f3e338cb/firebase-ml-vision-face-model-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/f2f14ccb47685e183c7b2d60f3e338cb/firebase-ml-vision-face-model-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/1de4af986af0d0f081e8cf2852b54cd9/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/1de4af986af0d0f081e8cf2852b54cd9/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/a77502ce2f5b35b3a8889860dd3b25d9/firebase-analytics-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/a77502ce2f5b35b3a8889860dd3b25d9/firebase-analytics-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-ml-common:20.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/9e3c81e830e4798a438c78fa2876893f/firebase-ml-common-20.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-common:20.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/9e3c81e830e4798a438c78fa2876893f/firebase-ml-common-20.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/1b920dbcb654aa18d4d2f2e6d710015d/play-services-measurement-api-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/1b920dbcb654aa18d4d2f2e6d710015d/play-services-measurement-api-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/a27b7316852127cedb107fa342027e86/play-services-measurement-sdk-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/a27b7316852127cedb107fa342027e86/play-services-measurement-sdk-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/c4f8446deafbbd935d10a9eb10f346da/play-services-measurement-impl-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/c4f8446deafbbd935d10a9eb10f346da/play-services-measurement-impl-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/87d5ea9ed2b456ab2692701ef4cee467/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/87d5ea9ed2b456ab2692701ef4cee467/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/a81b30af295ba6d7c89f22476fe84f8f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/a81b30af295ba6d7c89f22476fe84f8f/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/3c889179c533ac80e0db01982a81a1a5/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/3c889179c533ac80e0db01982a81a1a5/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/4182bfc2f56e99726ba059063b32f79a/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/4182bfc2f56e99726ba059063b32f79a/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] /Users/supto/.gradle/caches/transforms-2/files-2.1/01536d8e0cef9df088d6e431cdc9601a/coordinatorlayout-1.1.0-alpha01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] /Users/supto/.gradle/caches/transforms-2/files-2.1/01536d8e0cef9df088d6e431cdc9601a/coordinatorlayout-1.1.0-alpha01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /Users/supto/.gradle/caches/transforms-2/files-2.1/5575426a2f660ff276f1105b3e12323c/transition-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /Users/supto/.gradle/caches/transforms-2/files-2.1/5575426a2f660ff276f1105b3e12323c/transition-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha05] /Users/supto/.gradle/caches/transforms-2/files-2.1/93f74d569dc0364b2e7088ebfe70367d/appcompat-resources-1.1.0-alpha05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha05] /Users/supto/.gradle/caches/transforms-2/files-2.1/93f74d569dc0364b2e7088ebfe70367d/appcompat-resources-1.1.0-alpha05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-beta01] /Users/supto/.gradle/caches/transforms-2/files-2.1/bdd8892c928a2aab3488aed1db307ac4/vectordrawable-animated-1.1.0-beta01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-beta01] /Users/supto/.gradle/caches/transforms-2/files-2.1/bdd8892c928a2aab3488aed1db307ac4/vectordrawable-animated-1.1.0-beta01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-beta01] /Users/supto/.gradle/caches/transforms-2/files-2.1/9bf749e308f040c15232e0485f01b297/vectordrawable-1.1.0-beta01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-beta01] /Users/supto/.gradle/caches/transforms-2/files-2.1/9bf749e308f040c15232e0485f01b297/vectordrawable-1.1.0-beta01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-alpha04] /Users/supto/.gradle/caches/transforms-2/files-2.1/0c2a7bfba3dde6da4209049c6190e1b8/viewpager2-1.0.0-alpha04/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-alpha04] /Users/supto/.gradle/caches/transforms-2/files-2.1/0c2a7bfba3dde6da4209049c6190e1b8/viewpager2-1.0.0-alpha04/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/9669fbca71754ec41311aee715c7e2ab/play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/9669fbca71754ec41311aee715c7e2ab/play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/b7673a4f62c8598046bf235dcdc6faeb/play-services-vision-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/b7673a4f62c8598046bf235dcdc6faeb/play-services-vision-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-image-label:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/5c8c47bd659d9c8ea8c2d7b8ef21d1df/play-services-vision-image-label-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-image-label:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/5c8c47bd659d9c8ea8c2d7b8ef21d1df/play-services-vision-image-label-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/0b4a72cd60e9f0e6c95dbf3772012224/play-services-vision-common-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/0b4a72cd60e9f0e6c95dbf3772012224/play-services-vision-common-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/2783517788005408654cf894e0a58339/play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/2783517788005408654cf894e0a58339/play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/d148d6b3a7b4a11d5c9abfa488a94585/play-services-flags-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/d148d6b3a7b4a11d5c9abfa488a94585/play-services-flags-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/72cde89ab9583a6f0b76685ea084f187/play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/72cde89ab9583a6f0b76685ea084f187/play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/c8c6c41a890bdbc93b697f1aa690f896/firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/c8c6c41a890bdbc93b697f1aa690f896/firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/5d14a30af3c8bd5bbd18ffaa627a61cb/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/5d14a30af3c8bd5bbd18ffaa627a61cb/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/f5f88768d0479412135c50da1a8f61d7/firebase-common-18.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/f5f88768d0479412135c50da1a8f61d7/firebase-common-18.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/716eabca0bbd24c67f73008d1f458b9e/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/716eabca0bbd24c67f73008d1f458b9e/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/4fe8dd6666bef74ff5ade91ca3ca7f25/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/4fe8dd6666bef74ff5ade91ca3ca7f25/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/cfbb977098b019130f7375403bd89136/play-services-measurement-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/cfbb977098b019130f7375403bd89136/play-services-measurement-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/546364b3c4678e1aa56dd340f8c12f16/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/546364b3c4678e1aa56dd340f8c12f16/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/888975ad5e1a36ecc926c86675425fcd/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/888975ad5e1a36ecc926c86675425fcd/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/e19579a72270455b9385fa99699f0732/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/e19579a72270455b9385fa99699f0732/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-rc01] /Users/supto/.gradle/caches/transforms-2/files-2.1/77fcd333a62ef90fe7c6d1de346f261a/fragment-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0-rc01] /Users/supto/.gradle/caches/transforms-2/files-2.1/77fcd333a62ef90fe7c6d1de346f261a/fragment-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton:butterknife-runtime:10.1.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/399789c6a9220fee964ea103d39c5a6c/butterknife-runtime-10.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.1.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/399789c6a9220fee964ea103d39c5a6c/butterknife-runtime-10.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/b605ba4aba3978df580fce1f01ff1ad4/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/b605ba4aba3978df580fce1f01ff1ad4/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/52c75dfc912fad01c418d8891b71ff07/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/52c75dfc912fad01c418d8891b71ff07/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/648387ae8a56dc9685cdc1469e4c796f/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/648387ae8a56dc9685cdc1469e4c796f/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/b5da2f27843259d481a261de9d348828/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/b5da2f27843259d481a261de9d348828/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha05] /Users/supto/.gradle/caches/transforms-2/files-2.1/56ded9a57e0d0b418e978cee22239959/recyclerview-1.1.0-alpha05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha05] /Users/supto/.gradle/caches/transforms-2/files-2.1/56ded9a57e0d0b418e978cee22239959/recyclerview-1.1.0-alpha05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/dade71191df33e0ff4ecba70582b1163/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/dade71191df33e0ff4ecba70582b1163/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/49fe61372939fd65d675e12f15c15aeb/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/49fe61372939fd65d675e12f15c15aeb/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/246df8271d47953a8e80111d8d226363/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/246df8271d47953a8e80111d8d226363/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.1.0-alpha06] /Users/supto/.gradle/caches/transforms-2/files-2.1/e057388dbef6f5dffeaac3e3980fa593/navigation-runtime-2.1.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.1.0-alpha06] /Users/supto/.gradle/caches/transforms-2/files-2.1/e057388dbef6f5dffeaac3e3980fa593/navigation-runtime-2.1.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0-rc01] /Users/supto/.gradle/caches/transforms-2/files-2.1/cc8a8c8da6370606f49abdcb5bd8a977/activity-1.0.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0-rc01] /Users/supto/.gradle/caches/transforms-2/files-2.1/cc8a8c8da6370606f49abdcb5bd8a977/activity-1.0.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.1.0-alpha06] /Users/supto/.gradle/caches/transforms-2/files-2.1/105a30e611560d39842318e688e3281a/navigation-common-2.1.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.1.0-alpha06] /Users/supto/.gradle/caches/transforms-2/files-2.1/105a30e611560d39842318e688e3281a/navigation-common-2.1.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/supto/.gradle/caches/transforms-2/files-2.1/63e599754f235a162ab7618185327ae9/core-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0-rc01] /Users/supto/.gradle/caches/transforms-2/files-2.1/63e599754f235a162ab7618185327ae9/core-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/8b4526752e42f4a913b64324ba339d7d/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/8b4526752e42f4a913b64324ba339d7d/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/178d4b84ae19687476a7e5a8e8fac88a/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/178d4b84ae19687476a7e5a8e8fac88a/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/73a499153d39b964886d4dfb6e0990e9/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/73a499153d39b964886d4dfb6e0990e9/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/b9ae9cfa37c06ac7d6b2916e1b19cdfc/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/b9ae9cfa37c06ac7d6b2916e1b19cdfc/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/44452f9db9b495c617f85b6ebbc06252/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/44452f9db9b495c617f85b6ebbc06252/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/464b044a9604dfe5b308ceaeb6d4f72f/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/464b044a9604dfe5b308ceaeb6d4f72f/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/supto/.gradle/caches/transforms-2/files-2.1/050776c33ba940afb89f305541a789b9/versionedparcelable-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/supto/.gradle/caches/transforms-2/files-2.1/050776c33ba940afb89f305541a789b9/versionedparcelable-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] /Users/supto/.gradle/caches/transforms-2/files-2.1/31d022c06705e4a0c84deb1983025e21/lifecycle-viewmodel-2.1.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] /Users/supto/.gradle/caches/transforms-2/files-2.1/31d022c06705e4a0c84deb1983025e21/lifecycle-viewmodel-2.1.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] /Users/supto/.gradle/caches/transforms-2/files-2.1/d606b722148d2d74438048c23a257f36/lifecycle-runtime-2.1.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] /Users/supto/.gradle/caches/transforms-2/files-2.1/d606b722148d2d74438048c23a257f36/lifecycle-runtime-2.1.0-rc01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] /Users/supto/.gradle/caches/transforms-2/files-2.1/618c05ddaefec8c368e8d364e3d139e4/savedstate-1.0.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] /Users/supto/.gradle/caches/transforms-2/files-2.1/618c05ddaefec8c368e8d364e3d139e4/savedstate-1.0.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/7dbeefde088a826a6bd310535f13954c/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/7dbeefde088a826a6bd310535f13954c/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/b60f5571b119be9b8df03355afd6aad0/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/b60f5571b119be9b8df03355afd6aad0/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/581b654384cf85b9eb2c16760c30070d/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/581b654384cf85b9eb2c16760c30070d/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml
+INJECTED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml
+		ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml
+		ADDED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml
+provider#androidx.camera.camera2.impl.Camera2Initializer
+ADDED from [androidx.camera:camera-camera2:1.0.0-alpha03] /Users/supto/.gradle/caches/transforms-2/files-2.1/32f5ab79e79719acb18d997cb5ca43f7/camera-camera2-1.0.0-alpha03/AndroidManifest.xml:25:9-30:43
+	android:authorities
+		ADDED from [androidx.camera:camera-camera2:1.0.0-alpha03] /Users/supto/.gradle/caches/transforms-2/files-2.1/32f5ab79e79719acb18d997cb5ca43f7/camera-camera2-1.0.0-alpha03/AndroidManifest.xml:27:13-64
+	android:multiprocess
+		ADDED from [androidx.camera:camera-camera2:1.0.0-alpha03] /Users/supto/.gradle/caches/transforms-2/files-2.1/32f5ab79e79719acb18d997cb5ca43f7/camera-camera2-1.0.0-alpha03/AndroidManifest.xml:30:13-40
+	android:exported
+		ADDED from [androidx.camera:camera-camera2:1.0.0-alpha03] /Users/supto/.gradle/caches/transforms-2/files-2.1/32f5ab79e79719acb18d997cb5ca43f7/camera-camera2-1.0.0-alpha03/AndroidManifest.xml:28:13-37
+	android:initOrder
+		ADDED from [androidx.camera:camera-camera2:1.0.0-alpha03] /Users/supto/.gradle/caches/transforms-2/files-2.1/32f5ab79e79719acb18d997cb5ca43f7/camera-camera2-1.0.0-alpha03/AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.0.0-alpha03] /Users/supto/.gradle/caches/transforms-2/files-2.1/32f5ab79e79719acb18d997cb5ca43f7/camera-camera2-1.0.0-alpha03/AndroidManifest.xml:26:13-75
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/1b920dbcb654aa18d4d2f2e6d710015d/play-services-measurement-api-17.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/1b920dbcb654aa18d4d2f2e6d710015d/play-services-measurement-api-17.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/c4f8446deafbbd935d10a9eb10f346da/play-services-measurement-impl-17.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/c4f8446deafbbd935d10a9eb10f346da/play-services-measurement-impl-17.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/4fe8dd6666bef74ff5ade91ca3ca7f25/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/4fe8dd6666bef74ff5ade91ca3ca7f25/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:23:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/1b920dbcb654aa18d4d2f2e6d710015d/play-services-measurement-api-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/1b920dbcb654aa18d4d2f2e6d710015d/play-services-measurement-api-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/c4f8446deafbbd935d10a9eb10f346da/play-services-measurement-impl-17.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/c4f8446deafbbd935d10a9eb10f346da/play-services-measurement-impl-17.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/4fe8dd6666bef74ff5ade91ca3ca7f25/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/4fe8dd6666bef74ff5ade91ca3ca7f25/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:24:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/1b920dbcb654aa18d4d2f2e6d710015d/play-services-measurement-api-17.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/1b920dbcb654aa18d4d2f2e6d710015d/play-services-measurement-api-17.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/c4f8446deafbbd935d10a9eb10f346da/play-services-measurement-impl-17.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/c4f8446deafbbd935d10a9eb10f346da/play-services-measurement-impl-17.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/4fe8dd6666bef74ff5ade91ca3ca7f25/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/4fe8dd6666bef74ff5ade91ca3ca7f25/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:25:22-65
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/c4f8446deafbbd935d10a9eb10f346da/play-services-measurement-impl-17.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/c4f8446deafbbd935d10a9eb10f346da/play-services-measurement-impl-17.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/4fe8dd6666bef74ff5ade91ca3ca7f25/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/4fe8dd6666bef74ff5ade91ca3ca7f25/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/c4f8446deafbbd935d10a9eb10f346da/play-services-measurement-impl-17.0.0/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/c4f8446deafbbd935d10a9eb10f346da/play-services-measurement-impl-17.0.0/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/4fe8dd6666bef74ff5ade91ca3ca7f25/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/4fe8dd6666bef74ff5ade91ca3ca7f25/play-services-measurement-sdk-api-17.0.0/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:49:13-87
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/1b920dbcb654aa18d4d2f2e6d710015d/play-services-measurement-api-17.0.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/1b920dbcb654aa18d4d2f2e6d710015d/play-services-measurement-api-17.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/1b920dbcb654aa18d4d2f2e6d710015d/play-services-measurement-api-17.0.0/AndroidManifest.xml:28:13-84
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/1b920dbcb654aa18d4d2f2e6d710015d/play-services-measurement-api-17.0.0/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/1b920dbcb654aa18d4d2f2e6d710015d/play-services-measurement-api-17.0.0/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/1b920dbcb654aa18d4d2f2e6d710015d/play-services-measurement-api-17.0.0/AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:42:25-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/5d14a30af3c8bd5bbd18ffaa627a61cb/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/5d14a30af3c8bd5bbd18ffaa627a61cb/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/5d14a30af3c8bd5bbd18ffaa627a61cb/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/5d14a30af3c8bd5bbd18ffaa627a61cb/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/f5f88768d0479412135c50da1a8f61d7/firebase-common-18.0.0/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/f5f88768d0479412135c50da1a8f61d7/firebase-common-18.0.0/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/f5f88768d0479412135c50da1a8f61d7/firebase-common-18.0.0/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/f5f88768d0479412135c50da1a8f61d7/firebase-common-18.0.0/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/f5f88768d0479412135c50da1a8f61d7/firebase-common-18.0.0/AndroidManifest.xml:13:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/e19579a72270455b9385fa99699f0732/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/e19579a72270455b9385fa99699f0732/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/e19579a72270455b9385fa99699f0732/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58

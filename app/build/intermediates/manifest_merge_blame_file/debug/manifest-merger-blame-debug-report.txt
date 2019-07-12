@@ -1,0 +1,204 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.facedetection"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:5:5-65
+11-->/Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:6:5-80
+12-->/Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:7:5-81
+13-->/Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:7:22-78
+14
+15    <!-- Required permission for App measurement to run. -->
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:23:5-67
+16-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:23:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:24:5-79
+17-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:24:22-76
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:25:5-68
+18-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:25:22-65
+19    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+19-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:26:5-110
+19-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:26:22-107
+20    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+20-->[com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:26:5-82
+20-->[com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:26:22-79
+21
+22    <application
+22-->/Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:9:5-29:19
+23        android:name="com.example.facedetection.AppController"
+23-->/Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:11:9-38
+24        android:allowBackup="true"
+24-->/Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:10:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.1.0-rc01] /Users/supto/.gradle/caches/transforms-2/files-2.1/63e599754f235a162ab7618185327ae9/core-1.1.0-rc01/AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:12:9-43
+28        android:label="@string/app_name"
+28-->/Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:13:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->/Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:14:9-54
+30        android:supportsRtl="true"
+30-->/Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:15:9-35
+31        android:testOnly="true"
+32        android:theme="@style/AppTheme" >
+32-->/Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:16:9-40
+33        <activity android:name="com.example.facedetection.MainActivity" >
+33-->/Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:17:9-23:20
+33-->/Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:17:19-47
+34            <intent-filter>
+34-->/Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:18:13-22:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:19:17-69
+35-->/Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:19:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:21:17-77
+37-->/Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:21:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <meta-data
+41-->/Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:25:9-27:36
+42            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+42-->/Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:26:13-70
+43            android:value="face" />
+43-->/Users/supto/AndroidStudioProjects/FaceDetection/app/src/main/AndroidManifest.xml:27:13-33
+44
+45        <provider
+45-->[androidx.camera:camera-camera2:1.0.0-alpha03] /Users/supto/.gradle/caches/transforms-2/files-2.1/32f5ab79e79719acb18d997cb5ca43f7/camera-camera2-1.0.0-alpha03/AndroidManifest.xml:25:9-30:43
+46            android:name="androidx.camera.camera2.impl.Camera2Initializer"
+46-->[androidx.camera:camera-camera2:1.0.0-alpha03] /Users/supto/.gradle/caches/transforms-2/files-2.1/32f5ab79e79719acb18d997cb5ca43f7/camera-camera2-1.0.0-alpha03/AndroidManifest.xml:26:13-75
+47            android:authorities="com.example.facedetection.camerax-init"
+47-->[androidx.camera:camera-camera2:1.0.0-alpha03] /Users/supto/.gradle/caches/transforms-2/files-2.1/32f5ab79e79719acb18d997cb5ca43f7/camera-camera2-1.0.0-alpha03/AndroidManifest.xml:27:13-64
+48            android:exported="false"
+48-->[androidx.camera:camera-camera2:1.0.0-alpha03] /Users/supto/.gradle/caches/transforms-2/files-2.1/32f5ab79e79719acb18d997cb5ca43f7/camera-camera2-1.0.0-alpha03/AndroidManifest.xml:28:13-37
+49            android:initOrder="100"
+49-->[androidx.camera:camera-camera2:1.0.0-alpha03] /Users/supto/.gradle/caches/transforms-2/files-2.1/32f5ab79e79719acb18d997cb5ca43f7/camera-camera2-1.0.0-alpha03/AndroidManifest.xml:29:13-36
+50            android:multiprocess="true" />
+50-->[androidx.camera:camera-camera2:1.0.0-alpha03] /Users/supto/.gradle/caches/transforms-2/files-2.1/32f5ab79e79719acb18d997cb5ca43f7/camera-camera2-1.0.0-alpha03/AndroidManifest.xml:30:13-40
+51
+52        <receiver
+52-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:29:9-33:20
+53            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+53-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:30:13-85
+54            android:enabled="true"
+54-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:31:13-35
+55            android:exported="false" >
+55-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:32:13-37
+56        </receiver>
+57        <receiver
+57-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:34:9-42:20
+58            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+58-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:35:13-100
+59            android:enabled="true"
+59-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:36:13-35
+60            android:exported="true"
+60-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:37:13-36
+61            android:permission="android.permission.INSTALL_PACKAGES" >
+61-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:38:13-69
+62            <intent-filter>
+62-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:39:13-41:29
+63                <action android:name="com.android.vending.INSTALL_REFERRER" />
+63-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:40:17-79
+63-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:40:25-76
+64            </intent-filter>
+65        </receiver>
+66
+67        <service
+67-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:44:9-47:40
+68            android:name="com.google.android.gms.measurement.AppMeasurementService"
+68-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:45:13-84
+69            android:enabled="true"
+69-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:46:13-35
+70            android:exported="false" />
+70-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:47:13-37
+71        <service
+71-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:48:9-52:72
+72            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+72-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:49:13-87
+73            android:enabled="true"
+73-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:50:13-35
+74            android:exported="false"
+74-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:51:13-37
+75            android:permission="android.permission.BIND_JOB_SERVICE" />
+75-->[com.google.android.gms:play-services-measurement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/430a8e763b3951245ba5eabfe9738f6d/play-services-measurement-17.0.0/AndroidManifest.xml:52:13-69
+76        <service
+76-->[com.google.android.gms:play-services-measurement-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/1b920dbcb654aa18d4d2f2e6d710015d/play-services-measurement-api-17.0.0/AndroidManifest.xml:27:9-33:19
+77            android:name="com.google.firebase.components.ComponentDiscoveryService"
+77-->[com.google.android.gms:play-services-measurement-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/1b920dbcb654aa18d4d2f2e6d710015d/play-services-measurement-api-17.0.0/AndroidManifest.xml:28:13-84
+78            android:exported="false" >
+78-->[com.google.android.gms:play-services-measurement-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/1b920dbcb654aa18d4d2f2e6d710015d/play-services-measurement-api-17.0.0/AndroidManifest.xml:29:13-37
+79            <meta-data
+79-->[com.google.android.gms:play-services-measurement-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/1b920dbcb654aa18d4d2f2e6d710015d/play-services-measurement-api-17.0.0/AndroidManifest.xml:30:13-32:85
+80                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+80-->[com.google.android.gms:play-services-measurement-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/1b920dbcb654aa18d4d2f2e6d710015d/play-services-measurement-api-17.0.0/AndroidManifest.xml:31:17-139
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.android.gms:play-services-measurement-api:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/1b920dbcb654aa18d4d2f2e6d710015d/play-services-measurement-api-17.0.0/AndroidManifest.xml:32:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:32:13-34:85
+83                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+83-->[com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:33:17-96
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:34:17-82
+85        </service>
+86
+87        <receiver
+87-->[com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:37:9-44:20
+88            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+88-->[com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:38:13-78
+89            android:exported="true"
+89-->[com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:39:13-36
+90            android:permission="com.google.android.c2dm.permission.SEND" >
+90-->[com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:40:13-73
+91            <intent-filter>
+91-->[com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:41:13-43:29
+92                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+92-->[com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:42:17-81
+92-->[com.google.firebase:firebase-iid:19.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/562f59c8ade4e69dc8c0d544220852e4/firebase-iid-19.0.0/AndroidManifest.xml:42:25-78
+93            </intent-filter>
+94        </receiver>
+95
+96        <activity
+96-->[com.google.android.gms:play-services-base:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/5d14a30af3c8bd5bbd18ffaa627a61cb/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+97            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+97-->[com.google.android.gms:play-services-base:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/5d14a30af3c8bd5bbd18ffaa627a61cb/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+98            android:exported="false"
+98-->[com.google.android.gms:play-services-base:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/5d14a30af3c8bd5bbd18ffaa627a61cb/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+99            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+99-->[com.google.android.gms:play-services-base:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/5d14a30af3c8bd5bbd18ffaa627a61cb/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+100
+101        <provider
+101-->[com.google.firebase:firebase-common:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/f5f88768d0479412135c50da1a8f61d7/firebase-common-18.0.0/AndroidManifest.xml:12:9-16:39
+102            android:name="com.google.firebase.provider.FirebaseInitProvider"
+102-->[com.google.firebase:firebase-common:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/f5f88768d0479412135c50da1a8f61d7/firebase-common-18.0.0/AndroidManifest.xml:13:13-77
+103            android:authorities="com.example.facedetection.firebaseinitprovider"
+103-->[com.google.firebase:firebase-common:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/f5f88768d0479412135c50da1a8f61d7/firebase-common-18.0.0/AndroidManifest.xml:14:13-72
+104            android:exported="false"
+104-->[com.google.firebase:firebase-common:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/f5f88768d0479412135c50da1a8f61d7/firebase-common-18.0.0/AndroidManifest.xml:15:13-37
+105            android:initOrder="100" />
+105-->[com.google.firebase:firebase-common:18.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/f5f88768d0479412135c50da1a8f61d7/firebase-common-18.0.0/AndroidManifest.xml:16:13-36
+106
+107        <meta-data
+107-->[com.google.android.gms:play-services-basement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/e19579a72270455b9385fa99699f0732/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+108            android:name="com.google.android.gms.version"
+108-->[com.google.android.gms:play-services-basement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/e19579a72270455b9385fa99699f0732/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+109            android:value="@integer/google_play_services_version" />
+109-->[com.google.android.gms:play-services-basement:17.0.0] /Users/supto/.gradle/caches/transforms-2/files-2.1/e19579a72270455b9385fa99699f0732/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+110    </application>
+111
+112</manifest>

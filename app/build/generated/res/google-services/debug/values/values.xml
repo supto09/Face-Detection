@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">80203879546-c6cgapqrotb7hqb4pve4kce1el2pul4d.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://face-detection-d8a00.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">80203879546</string>
+    <string name="google_api_key" translatable="false">AIzaSyD9iMCcWgMzxHtrwNnQs1aIv4pPXUwYvYw</string>
+    <string name="google_app_id" translatable="false">1:80203879546:android:27623bce16aa6d82</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD9iMCcWgMzxHtrwNnQs1aIv4pPXUwYvYw</string>
+    <string name="google_storage_bucket" translatable="false">face-detection-d8a00.appspot.com</string>
+    <string name="project_id" translatable="false">face-detection-d8a00</string>
+</resources>
